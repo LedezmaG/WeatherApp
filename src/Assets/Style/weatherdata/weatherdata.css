@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.weatherData_content{
+    margin: 5%;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: azure;
+    display: inline-grid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.weatherData_Info{
+    width: 100%;
+    height: 10%;
+    display: inline-flex;
+}
+.ExtraInfo__text{
+    color: royalblue;
+    font-size: 20px;
+    font-weight: bold;
+    display: grid;
+}
+.weatherData_Info-tem{
+    width: 60%;
+    height: 10%;
+    display: inline-block;
+}
+.weatherData_Info_Tem-tem{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+    color: #333;
+}
+.weatherData_Info_Tem-type{
+    font-size: 20px;
+    font-weight: bold;
+    color: #666;
+}
+.weatherLocation__city{
+    text-align: initial;
+}
+.center-center{
+    text-align: center;
+}

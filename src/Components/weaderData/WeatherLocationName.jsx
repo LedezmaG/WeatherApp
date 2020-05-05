@@ -5,9 +5,11 @@ const WeatherLocationName = ( {city} ) => (
     // Destructuring
     // const { city } = props;
 
-    <h1> 
-        { city }
-    </h1>
+    <div className="weatherLocation__city">
+        <h1> 
+            { city }
+        </h1>
+    </div>
 
 );
 
