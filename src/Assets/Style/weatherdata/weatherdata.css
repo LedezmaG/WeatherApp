@@ -9,13 +9,12 @@ h1, h2, h3, h4, h5, h6{
 
 
 .weatherData_content{
-    margin: 5%;
+    margin-bottom: 15px;
     padding: 20px;
-    width: 35%;
+    width: 80%;
     text-align: center;
     border-radius: 10px;
     background-color: azure;
-    display: inline-grid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .weatherData_Info{
@@ -30,7 +29,6 @@ h1, h2, h3, h4, h5, h6{
     display: grid;
 }
 .weatherData_Info-tem{
-    width: 60%;
     height: 10%;
     display: inline-block;
 }

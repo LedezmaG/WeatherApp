@@ -5,12 +5,11 @@ import '../../Assets/Style/weatherdata/weatherdata.css';
 
 const icons ={
     cloud:  "cloud",
-    cloudy: "day-cloudy",
-    sunny:  "day-sunny",
+    sun:    "day-sunny",
     rain:   "day-rain",
+    snow:   "snow",
     tunder: "day-thunderstorm",
     windy:  "day-windy",
-    snow:   "snow"
 }
 
 const getWeatherIcon = weatherState => {
